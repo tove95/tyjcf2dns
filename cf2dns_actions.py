@@ -16,10 +16,10 @@ KEY = os.environ["KEY"]  #"o1zrmHAF"
 #修改需要更改的dnspod域名和子域名
 DOMAINS = json.loads(os.environ["DOMAINS"])  #{"hostmonit.com": {"@": ["CM","CU","CT"], "shop": ["CM", "CU", "CT"], "stock": ["CM","CU","CT"]},"4096.me": {"@": ["CM","CU","CT"], "vv": ["CM","CU","CT"]}}
 #腾讯云后台获取 https://console.cloud.tencent.com/cam/capi
-SECRETID = os.environ["DW9HSQPKIZK120I2TGWQ"]    #'AKIDV**********Hfo8CzfjgN'
-SECRETKEY = os.environ["c4It4wv3LSNkWrT8N9BHI3Zd3qnmq1nWL802hj07"]   #'ZrVs*************gqjOp1zVl'
+SECRETID = os.environ["SECRETID"]    #'AKIDV**********Hfo8CzfjgN'
+SECRETKEY = os.environ["SECRETKEY"]   #'ZrVs*************gqjOp1zVl'
 #默认为普通版本 不用修改
-AFFECT_NUM = 2
+AFFECT_NUM = 3
 #DNS服务商 如果使用DNSPod改为1 如果使用阿里云解析改成2  如果使用华为云解析改成3
 DNS_SERVER = 3
 #如果试用华为云解析 需要从API凭证-项目列表中获取
