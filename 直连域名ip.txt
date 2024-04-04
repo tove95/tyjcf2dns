@@ -1,0 +1,8 @@
+# comment
+DOMAIN-SUFFIX,520951.xyz
+DOMAIN-SUFFIX,tove.eu.org
+DOMAIN-SUFFIX,oove.eu.org
+DOMAIN-SUFFIX,feiniaobt.com
+DOMAIN-SUFFIX,wogg.xyz
+DOMAIN,web.feiniaobt.com
+IP-CIDR,45.78.35.38/32
